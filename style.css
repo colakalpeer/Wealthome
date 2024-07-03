@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .container {
+    display: flex;
+    padding: 1.2em;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .wealthome {
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    margin-left: 100px;   
+  }
+  
+  .home {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+  }
+  
+  .rent {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+  }
+  
+  .sell {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+  }
+  
+  .buy {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+  }
+  
+  .about {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+  }
+  
+  .login{
+      font-size: 15px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      align-items: center;
+      margin-left: 350px;
+  }
+  
+  
+  .getstarted {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+  }
+  
