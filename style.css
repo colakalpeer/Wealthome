@@ -26,4 +26,25 @@
   --neutral-10: #18191a;
   --neutral-5: #0c0c04;
   --error-100: #ff2134;
+
+  --gradient: linear-gradient(270deg, #0F4392 0%, #001D3D 100%);
+
+  /* font-family */
+  --font-primary: 'Montserrat', sans-serif;
+
+
+  /* font-size */
+  --fs-base: 62.5%;
+  --fs-headline-large: 3.6rem;
+  --fs-headline-medium: 2.8rem;
+  --fs-headline-small: 2.8rem;
+  --fs-title-large: 2.2rem;
+  --fs-title-medium: 2rem;
+  --fs-title-small: 1.8rem;
+  --fs-body-large: 1.6rem;
+  --fs-body-medium: 1.6rem;
+  --fs-label-large: 1.6rem;
+  --fs-label-medium: 1.4rem;
+
+
 }
