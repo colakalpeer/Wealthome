@@ -27,11 +27,10 @@
   --neutral-5: #0c0c04;
   --error-100: #ff2134;
 
-  --gradient: linear-gradient(270deg, #0F4392 0%, #001D3D 100%);
+  --gradient: linear-gradient(270deg, #0f4392 0%, #001d3d 100%);
 
   /* font-family */
-  --font-primary: 'Montserrat', sans-serif;
-
+  --font-primary: "Montserrat", sans-serif;
 
   /* font-size */
   --fs-base: 62.5%;
@@ -45,6 +44,78 @@
   --fs-body-medium: 1.6rem;
   --fs-label-large: 1.6rem;
   --fs-label-medium: 1.4rem;
+
+  /* line height */
+  --lh-headline-large: 44px;
+  --lh-headline-medium: 36px;
+  --lh-headline-small: 36px;
+  --lh-title-large: 28px;
+  --lh-title-medium: 24px;
+  --lh-titl-small: 24px;
+  --lh-body-large: 24px;
+  --lh-body-medium: 24px;
+  --lh-label-large: 24px;
+  --lh-label-medium: 20px;
+
+  /* font weight */
+  --weight-bold: 700;
+  --weight-semiBold: 600;
+  --weight-regular: 400;
+
+  /* letter spacing */
+  --traking-n-025: -0.25px;
+  --traking-p-05: 0.5px;
+
+
+  /* Radius
+  */
+
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-extra-large: 32px;
+  --radius-full: 1000px;
+  --radius-circle: 50%;
+
+  /*
+  Shadow
+  */
+
+  --shadow-1: 0px 2px 4px 0px #00000033;
+  --shadow-2: 0px 5px 10px 0px #0000000D;
+  --shadow-3: 0px 5px 10px 0px #00000033;
+  --shadow-4: 0px 10px 20px 0px #0000001A;
+
+  /*
+  Transition
+  */
+
+  --transition-easing-quick: cubic-bezier(0, 0.7, 0.3, 1);
+  --transition-duration-quick: 200ms;
+  --transition-duration-smooth: 500ms;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
