@@ -66,8 +66,6 @@
   --traking-n-025: -0.25px;
   --traking-p-05: 0.5px;
 
-
-
   /* Radius
   */
 
@@ -83,9 +81,9 @@
   */
 
   --shadow-1: 0px 2px 4px 0px #00000033;
-  --shadow-2: 0px 5px 10px 0px #0000000D;
+  --shadow-2: 0px 5px 10px 0px #0000000d;
   --shadow-3: 0px 5px 10px 0px #00000033;
-  --shadow-4: 0px 10px 20px 0px #0000001A;
+  --shadow-4: 0px 10px 20px 0px #0000001a;
 
   /*
   Transition
@@ -94,29 +92,85 @@
   --transition-easing-quick: cubic-bezier(0, 0.7, 0.3, 1);
   --transition-duration-quick: 200ms;
   --transition-duration-smooth: 500ms;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li { list-style: none; }
+
+a,
+img,
+span,
+input,
+select,
+button { display: block, }
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+img { height: auto; }
+
+input,
+button,
+select { 
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+
+button { cursor: pointer; }
+
+input,
+select {
+  width: 100%;
+  outline: none;
+}
+
+address { font-style: normal; }
+
+select{
+  appearance: none;
+  -webkit-appearence: none;
+  -moz-appearance: none;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: var(--fs-base);
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--neutral-98);
+  color: var(--neutral-5);
+  font-size: var(--fs-body-medium);
+  line-height: var(--lh-body-medium);
+  height: 300vh;
+}
+
+::-webkit-scrollbar { width: 12px;}
+
+::-webkit-scrollbar-track { background-color: var(--neutral-90); }
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--neutral-60);
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
