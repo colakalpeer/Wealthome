@@ -250,9 +250,6 @@ body {
   margin-inline: auto;
 }
 
-
-
-
 /** BUTTON*/
 
 .btn {
@@ -279,4 +276,43 @@ body {
 
 .btn-fill:where(:active, :focus-visible) {
   background-color: var(--primary-80);
+}
+
+.btn-outline {
+  color: var(--primary-100);
+  box-shadow: inset 0 0 0 2px var(--primary-100);
+}
+
+.btn-outline:where(:hover, :focus, :focus-visible) {
+  color: var(--neutral-100);
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-100);
+}
+
+.btn-outline:focus {
+  background-color: var(--primary-90);
+}
+
+.btn-outline:where(active, :focus-visible) {
+  background-color: var(--primary-80);
+}
+
+/** ICON btn 
+*/
+
+.icon-btn {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  background-color: var(--neutral-100);
+  border-radius: var(--raidus-small);
+  box-shadow: var(--shadow-3);
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
+}
+
+.icon-btn:where(:hover, :focus-visible) {
+  background-color: var(--neutral-90);
 }
