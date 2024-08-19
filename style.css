@@ -316,3 +316,62 @@ body {
 .icon-btn:where(:hover, :focus-visible) {
   background-color: var(--neutral-90);
 }
+
+
+/** HEADER
+*/
+
+.navbar {
+  display: none;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.header.active {
+  animation: slide_in 500ms ease forwards;
+  height: 72px;
+  background-color: var(--primary-40); 
+}
+
+@keyframes slide_in {
+  0% { transform: translateY(-100%);}
+  100% { transform: translateY(0);}
+}
+
+.header .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-toggle-btn .close,
+.nav-toggle-btn.active .open { display: none; }
+
+.nav-toggle-btn .open,
+.nav-toggle-btn.active .close { display: block; }
+
+.navbar {
+  position: absolute;
+  top: 85%;
+  right: 16px;
+  background-color: var(--neutral-100);
+  min-width: 260px;
+  padding: 10px;
+  border-radius: var(--radius-large);
+  visibility: hidden;
+  opacity: 0;
+  scale: 0.4;
+  transform: var(--transition-duration-quick) var(--transition-easing-quick);
+  box-shadow: var(--shadow-1);
+  transform-origin: top right;
+  z-index: 4;
+}
