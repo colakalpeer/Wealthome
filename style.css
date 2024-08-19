@@ -375,3 +375,9 @@ body {
   transform-origin: top right;
   z-index: 4;
 }
+
+.navbar.active {
+  visibility: visible;
+  opacity: 1;
+  scale: 1;
+}
