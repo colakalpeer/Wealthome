@@ -491,3 +491,19 @@ body {
   border-radius: 12px;
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
+
+
+.search-btn:where(:hover, :focus) { background-color: var(--primary-80); }
+
+.search-btn:where(:active, :focus-visible) {background-color: var(--primary-70);}
+
+.hero .bg-pattern {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 0;
+  transform: 0 -50%;
+  min-height: 100%;
+  pointer-events: none;
+  z-index: -2;
+}
