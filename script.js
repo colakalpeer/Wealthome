@@ -18,3 +18,5 @@ const $header = document.querySelector("[data-header]");
 windows.addEventListener("scroll", (e) => {
   $header.classList[windows.scrollY > 50 ? "add" : "remove"]("active");
 });
+
+
