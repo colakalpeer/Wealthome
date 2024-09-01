@@ -26,7 +26,6 @@
   --neutral-10: #18191a;
   --neutral-5: #0c0c04;
   --error-100: #ff2134;
-  
 
   --gradient: linear-gradient(270deg, #0f4392 0%, #001d3d 100%);
 
@@ -431,10 +430,13 @@ body {
   isolation: isolate;
 }
 
+.hero-title {
+  color: var(--neutral-100);
+}
 
-.hero-title { color: var(--neutral-100); }
-
-.hero-text { margin-block: 16px 32px; }
+.hero-text {
+  margin-block: 16px 32px;
+}
 
 .search-bar {
   background: var(--white);
@@ -493,10 +495,13 @@ body {
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
 
+.search-btn:where(:hover, :focus) {
+  background-color: var(--primary-80);
+}
 
-.search-btn:where(:hover, :focus) { background-color: var(--primary-80); }
-
-.search-btn:where(:active, :focus-visible) {background-color: var(--primary-70);}
+.search-btn:where(:active, :focus-visible) {
+  background-color: var(--primary-70);
+}
 
 .hero .bg-pattern {
   position: absolute;
