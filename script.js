@@ -26,3 +26,4 @@ $toggleBtns.forEach($toggleBtn => {
     $toggleBtn.classList.toggle("active");
   });
 });
+
