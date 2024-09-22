@@ -709,3 +709,8 @@ FEATURE BANNER
   0% { box-shadow: 0 0 0 0 #ffffff80; }
   100% { box-shadow: 0 0 0 20px #ffffff00;}
 }
+
+.play-btn .material-symbol-rounded { 
+  font-size: 4rem;
+  font-variation-settings: 'FILL' 1;
+}
