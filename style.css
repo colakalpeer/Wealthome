@@ -687,5 +687,9 @@ FEATURE BANNER
 .video-card {
   height: 260px;
   border-radius: 32px;
-  background: linear-gradient(0deg, #0000004D, #0000004d,), url(./images/video-card.mp4);
+  background: linear-gradient(0deg, #0000004D, #0000004d), url('./images/video-card.mp4');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
 }
