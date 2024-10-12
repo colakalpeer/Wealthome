@@ -853,9 +853,72 @@ FOOTER
   .footer-brand { grid-column: 1 / 4; }
 
   .footer-text { max-width: 400px; }
-  
+
+}
+
+
+@media (min-width: 768px ) {
+
 }
 
 
 
+
+
+
+@media (min-width: 992px ) {
+  
+  :root {
+    --fs-body-large: 1.8rem;
+
+    --lh-body-large: 32px;
+
+  }
+
+
+  .container { max-width: 950px; }
+
+  
+  .nav-toggle-btn { display: none; }
+
+  .navbar,
+  .navbar-list,
+  .navbar-wrapper {
+    all: unset;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar,
+  .navbar-list { flex-grow: 1; }
+
+  .navbar-list { justify-content: center; }
+
+  .navbar-link,
+  .btn-link {
+    color: var(--neutral-90);
+    line-height: 48px;
+  }
+
+  .navbar-link { padding: 0, 24px; }
+
+  :is(.navbar-link, .btn-link):is(:hover, :focus-visible),
+
+  .navbar-link.active { color: var(--neutral-100); }
+
+  .navbar-link.active { position: relative; }
+
+  .navbar-link.active::before {
+    content: "";
+    position: absolute;  
+    left: 50%;
+    translate: -50% 0;
+    bottom: 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: var(--radius-circle);
+    background-color: var(--neutral-100);
+  }
+
+}
 
