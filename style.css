@@ -966,5 +966,7 @@ FOOTER
     z-index: -1;
   }
 
+
+  .property .section-text { max-width: 640px; }
 }
 
