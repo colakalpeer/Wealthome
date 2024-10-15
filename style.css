@@ -920,5 +920,47 @@ FOOTER
     background-color: var(--neutral-100);
   }
 
+  .btn-link {
+    color: var(--neutral-100);
+    border: none;
+    padding: 0;
+  }
+
+  .navbar .btn { min-width: max-content; }
+
+  .navbar-wrapper { gap: 24px; }
+
+
+
+
+  .hero .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+  }
+
+
+  .hero-content { grid-column: 1 / 7; }
+
+  .search-bar { 
+    min-width: max-content;
+    grid-template-columns: 160px 220px 1fr max-content;
+  }
+
+  .search-item .label { 
+    top: 16px;
+    left: 24px;
+  }
+
+  .search-item .material-symbols-rounded {
+    display: block;
+    right: 24px;
+  }
+
+  .hero-banner {
+    display: block;
+    position: absolute;
+  }
+
 }
 
