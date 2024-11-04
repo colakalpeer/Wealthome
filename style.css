@@ -568,13 +568,16 @@ CARD
 }
 
 .search-item {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
   position: relative;
   color: var(--neutral-50);
 }
 
 .search-item .search-item-field {
   height: 76px;
-  padding: 40px 16px 12px;
+  padding: 40px 25px 12px;
   border-radius: var(--radius-medium);
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
   cursor: pointer;
