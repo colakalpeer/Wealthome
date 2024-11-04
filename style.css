@@ -985,7 +985,7 @@ FOOTER
     --fs-headline-large: 7.2rem;
     --fs-headline-medium: 5.4rem;
 
-    --lh-headline-large: 92px;
+    --lh-headline-large: 92 px;
     --lh-headline-medium: 72px;
   }
 
@@ -1026,6 +1026,10 @@ FOOTER
   }
 
   .story-card:where(:nth-child(3), :nth-child(5)) {
+    grid-column: span 4;
+  }
+
+  .story-card:where(:nth-child(2), :nth-child(4)) {
     grid-column: span 5;
   }
 
