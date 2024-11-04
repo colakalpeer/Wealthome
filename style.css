@@ -580,7 +580,7 @@ CARD
   cursor: pointer;
 }
 
-.search-item .search-item-field:where(:hover, :focus) {
+.search-item:where(:hover, :focus) {
   background-color: var(--neutral-95);
 }
 
