@@ -545,7 +545,7 @@ CARD
   position: relative;
   background-image: var(--gradient);
   color: var(--neutral-90);
-  padding-block: 130px 60px;
+  padding-block: 25px 60px;
   overflow: hidden;
   isolation: isolate;
 }
