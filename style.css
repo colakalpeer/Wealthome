@@ -860,11 +860,6 @@ FOOTER
 
 }
 
-
-@media (min-width: 768px ) {
-
-}
-
 @media (min-width: 992px ) {
   
   :root {
@@ -990,7 +985,7 @@ FOOTER
     --fs-headline-large: 7.2rem;
     --fs-headline-medium: 5.4rem;
 
-    --lh-headline-large: 922px;
+    --lh-headline-large: 92px;
     --lh-headline-medium: 72px;
   }
 
