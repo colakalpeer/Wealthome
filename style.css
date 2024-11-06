@@ -66,6 +66,9 @@
   --traking-n-025: -0.25px;
   --traking-p-05: 0.5px;
 
+  /* line height */
+
+  --line-height-normal : normal;
   /* Radius
   */
 
@@ -551,6 +554,7 @@ CARD
 }
 
 .hero-title {
+  line-height: var(--line-height-normal);
   color: var(--neutral-100);
 }
 
@@ -651,7 +655,7 @@ PROPERTY
 
 .property-list {
   display: grid;
-  grid-template-columns: repeat(auto-fith, minmax(280px, lfr));
+  grid-template-columns: auto auto auto auto;
   gap: 16px;
 }
 
@@ -671,6 +675,9 @@ FEATURE BANNER
 
 .feature-text .feature-item { color: var(--neutral-30); }
 
+.feature-container {
+  display: flex;
+}
 .feature-list {
   display: grid;
   gap: 12px;
@@ -695,9 +702,12 @@ FEATURE BANNER
   background-size: cover;
   display: grid;
   place-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .play-btn {
+  position: absolute;
   width: 72px;
   height: 72px;
   display: grid;

@@ -22,7 +22,7 @@
   </head>
   
   <body>
-    <header class="header">
+    <header class="header" data-header>
       <div class="container">
         <a href="#" class="logo">
           <img src="./images/logo.png" width="50" height="50" alt="wupzhome" />
@@ -138,18 +138,15 @@
             </div>
             <img
               src="./images/hero.jpg"
-              width="816"
-              height="659"
               role="presentation"
               class="hero-banner"
             />
 
             <img
               src="./images/bg-pattern.jpg"
-              width="1240"
-              height="840"
               role="presentation"
               class="bg-pattern"
+              style="display: none;"
             />
           </div>
         </section>
@@ -547,8 +544,8 @@
         </section>
         
         <section class="section feautre" aria-labelledby="feature-label">
-          <div class="container">
-            <figure class="future-banner">
+          <div class="container feature-container">
+            <figure class="future-banner" style="width: 200%;">
               <img src="images/feature-banner-1.jpg" width="1020" height="690" alt="feature-banner" class="img-cover">
             </figure>
 
@@ -592,11 +589,7 @@
         </section>
           
         <section class="section feautre feature-2" aria-labelledby="feature-label-2">
-          <div class="container">
-            <figure class="future-banner">
-              <img src="images/feature-banner-2.jpg" width="1020" height="690" alt="feature-banner" class="img-cover">
-            </figure>
-
+          <div class="container feature-container">
             <div class="feature-content">
               <h2 class="headline-medium" id="feature-label-2">
                 We Are Experts In Historic Home Renovations
@@ -630,9 +623,10 @@
                 </li>
 
               </ul>
-
             </div>
-
+            <figure class="future-banner" style="width: 200%;">
+              <img src="images/feature-banner-2.jpg"  alt="feature-banner" class="img-cover">
+            </figure>
           </div>
         </section>
         
@@ -640,11 +634,12 @@
           <div class="container">
 
             <div class="video-card">
-
-              <button class="play-btn" aria-label="play video">
-                <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
-              </button>
-
+            <video width="100%" id="ytVideo">
+                <source src="./images/video-card.mp4" type="video/mp4" />
+            </video>
+            <button class="play-btn" aria-label="play video">
+              <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
+            </button>
             </div>
 
           </div>
@@ -839,7 +834,7 @@
 
                   <li>
                     <a href="#" class="social-link">
-                      <img src="./images/github.jpg" alt="GitHub">
+                      <img src="./images/github.jpg" alt="GitHub" height="50" width="50">
                     </a>
                   </li>
 

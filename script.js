@@ -16,7 +16,7 @@ $navToggler.addEventListener("click", () => $navbar.classList.toggle("active"));
 const $header = document.querySelector("[data-header]");
 
 window.addEventListener("scroll", (e) => {
-  $header.classList[windows.scrollY > 50 ? "add" : "remove"]("active");
+  $header.classList[window.scrollX > 50 ? 'add' : 'remove'];
 });
 
 
@@ -27,3 +27,28 @@ $toggleBtns.forEach($toggleBtn => {
   });
 });
 
+
+
+const playButton = document.querySelector('.play-btn');
+const video = document.querySelector('#ytVideo');
+const videoCard = document.querySelector('.video-card');
+const isVideoPlaying = video => !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
+
+
+playButton.addEventListener('click', (event) => {
+
+  if(!isVideoPlaying(video)) {
+    video.play();
+    playButton.style.visibility = 'hidden';
+  } else {
+    video.pause();
+    playButton.style.visibility = 'visible';
+  }
+});
+
+videoCard.addEventListener('mouseover', () => {
+  playButton.style.visibility = 'visible';
+})
+videoCard.addEventListener('mouseleave', () => {
+  playButton.style.visibility = 'hidden';
+})
