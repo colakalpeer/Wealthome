@@ -567,7 +567,7 @@ CARD
 }
 
 .hero-title {
-  line-height: var(--line-height-normal);
+  line-height: 75px;
   color: var(--neutral-100);
 }
 
