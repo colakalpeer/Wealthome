@@ -248,7 +248,6 @@ body {
 
 .container {
   padding-inline: 16px;
-  max-width: 580px;
   width: 100%;
   margin-inline: auto;
 }
@@ -559,8 +558,12 @@ CARD
 
 .hero {
   position: relative;
-  background-image: var(--gradient);
-  color: var(--neutral-90);
+  background-image: url("./images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: inherit;
+  background-size: cover;
+  background-attachment: fixed;
   padding-block: 25px 60px;
   overflow: hidden;
   isolation: isolate;
@@ -999,6 +1002,7 @@ FOOTER
 
   .hero .container {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
   }
@@ -1022,14 +1026,7 @@ FOOTER
     right: 24px;
   }
 
-  .hero-banner {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    max-width: 720px;
-    z-index: -1;
-  }
+
 
   .property .section-text {
     max-width: 640px;
