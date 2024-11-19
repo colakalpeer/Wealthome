@@ -2,7 +2,6 @@
   margin: 0;
 }
 
-
 :root {
   --white: #ffffff;
   --yellow: #f6bd26;
@@ -1026,8 +1025,6 @@ FOOTER
     display: block;
     right: 24px;
   }
-
-
 
   .property .section-text {
     max-width: 640px;
